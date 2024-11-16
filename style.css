@@ -1,7 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #ffe6e6;
+  margin: 0;
+  padding: 0;
 }
 
 .custom-navbar {
-  background-color: #ffb6c1;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: pink;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #333;
+}
+
+.hero-section {
+  background-image: url("images/images/Brown\ and\ White\ Modern\ Skincare\ Presentation.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+.hero-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  padding-top: 12%;
+  line-height: 1.5;
+  font-family: "Playfair", serif;
+}
+
+.hero-content h1 {
+  font-size: 6rem;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-family: "Lora", serif;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  word-spacing: 10px;
+  margin-top: 1.5rem;
+}
+
+.img-fluid {
+  max-width: 50%;
+}
+
+@media (min-width: 992px) {
+  .hero-content h1 {
+    font-size: 10rem;
+  }
+
+  .hero-content {
+    padding-top: 5%;
+  }
+
+  .hero-content p {
+    font-size: 2rem;
+    word-spacing: 10px;
+  }
 }
