@@ -28,8 +28,23 @@ body {
   color: #fff;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-color: #333;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: 0 0 0 2px white;
+}
+
+.navbar-toggler,
+.navbar-toggler:hover .navbar-toggler:active {
+  background-color: transparent;
+  border-color: white;
 }
 
 .hero-section {
