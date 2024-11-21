@@ -111,7 +111,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 200vh;
   width: 100%;
 }
 
@@ -160,9 +160,5 @@ body {
 @media (max-width: 390px) {
   .welcome-content {
     padding: 1rem;
-  }
-
-  .benefit-contents {
-    padding-bottom: 5rem;
   }
 }
