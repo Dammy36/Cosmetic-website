@@ -54,7 +54,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   overflow: hidden;
   color: white;
@@ -157,7 +157,7 @@ a {
   font-weight: lighter;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .hero-content h1 {
     font-size: 10rem;
   }
@@ -172,9 +172,6 @@ a {
   }
 }
 @media (max-width: 390px) {
-  .hero-section {
-    height: 50vh;
-  }
   .hero-content h1 {
     font-size: 5rem;
   }
