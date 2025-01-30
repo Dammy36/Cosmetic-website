@@ -64,7 +64,7 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   text-align: center;
-  padding-top: 12%;
+  padding-top: 8%;
   line-height: 1.5;
   font-family: "Playfair", serif;
 }
@@ -80,6 +80,25 @@ body {
   font-size: 1.3rem;
   word-spacing: 10px;
   margin-top: 1.5rem;
+}
+
+.search-button {
+  padding: 2px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffe6e6;
+  margin-left: 10px;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .img-fluid {
@@ -115,7 +134,8 @@ body {
   max-width: 100%;
 }
 
-.fixed-height {
+.fixed-height,
+.images-grid {
   object-fit: cover;
   width: 100%;
   height: 300px;
@@ -130,6 +150,11 @@ body {
   padding: 5rem;
   font-size: 5rem;
   font-family: "lora", serif;
+}
+
+.h3-center {
+  font-size: 3rem;
+  font-weight: lighter;
 }
 
 @media (min-width: 992px) {
@@ -165,6 +190,10 @@ body {
   }
   .welcome-content {
     padding: 1rem;
+  }
+
+  .h3-center {
+    font-size: 1.5rem;
   }
   .benefit-content {
     text-align: center;
